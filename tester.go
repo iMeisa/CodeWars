@@ -1,10 +1,10 @@
 package main
 
 import (
-	rnd "CodeWars/romanNumeralsDecoder"
+	. "CodeWars/spinWords"
 	"fmt"
 )
 
 func main() {
-	fmt.Println(rnd.Decode("XCI"))
+	fmt.Println(SpinWords("Hello there you"))
 }
