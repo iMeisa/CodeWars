@@ -33,10 +33,11 @@ func Decode(roman string) int {
 		}
 
 		if prevValue < currentValue {
-			currentValue -= prevValue
+			currentValue -= prevValue * 2
 		}
 
 		total += currentValue
+		prevValue = currentValue
 	}
 
 	return total

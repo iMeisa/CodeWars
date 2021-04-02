@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	rnd "CodeWars/romanNumeralsDecoder"
+	"fmt"
+)
 
 func main() {
-	fmt.Println("Hello o/")
+	fmt.Println(rnd.Decode("XCI"))
 }
