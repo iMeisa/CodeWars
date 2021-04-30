@@ -1,7 +1,7 @@
 package main
 
 import (
-	spin "CodeWars/spinWords"
+	spin "CodeWars/buyingACar"
 	"fmt"
 )
 
