@@ -1,10 +1,10 @@
 package main
 
 import (
-	. "CodeWars/spinWords"
+	spin "CodeWars/spinWords"
 	"fmt"
 )
 
 func main() {
-	fmt.Println(SpinWords("Hello there you"))
+	fmt.Println(spin.SpinWords("Hello there you"))
 }

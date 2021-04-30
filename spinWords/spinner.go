@@ -1,7 +1,6 @@
 package spinWords
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -16,7 +15,6 @@ func SpinWords(str string) string {
 			}
 
 			words[index] = reversedWord
-			fmt.Println(word)
 		}
 	}
 
